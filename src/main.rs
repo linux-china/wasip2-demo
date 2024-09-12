@@ -1,3 +1,4 @@
 fn main() {
-    println!("你好, 世界!");
+    let nick = std::env::var("NICK").unwrap_or("Guest".to_string());
+    println!("你好, {}!", nick);
 }
