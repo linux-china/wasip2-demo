@@ -10,7 +10,7 @@ identifiers. It is also known as “WASIp2”, where the “p” stands for eith
 
 # Get Started
 
-* Install Rust Beta(1.82.0-beta.3): `rustup update beta`
+* Install Rust 1.82.0: `rustup update stable` and target `rustup target add wasm32-wasip2`
 * Install wasmtime: `cargo install wasmtime`
 * Install wasm-tools: `cargo binstall wasm-tools`
 * Build WASI 0.2: `cargo build --target=wasm32-wasip2`
